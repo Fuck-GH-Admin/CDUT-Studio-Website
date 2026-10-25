@@ -1,0 +1,5 @@
+/* 只说明离线状态，不改变客户端原有布局、尺寸或主题令牌。 */
+[data-showcase-limited="true"] {
+  opacity: .45;
+  cursor: not-allowed;
+}

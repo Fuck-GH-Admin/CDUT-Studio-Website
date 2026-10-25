@@ -1,0 +1,20 @@
+/* Local overlay: leave the existing card, padding, aspect ratio and layout intact. */
+.rounded-visual-card > .r06-client-stage {
+  position: absolute;
+  inset: clamp(15px, 1.7vw, 25px);
+  overflow: hidden;
+  border-radius: 12px;
+  background: var(--bg-elevated);
+  opacity: 0;
+  pointer-events: none;
+}
+.r06-client-frame {
+  position: absolute; left: 50%; top: 50%;
+  width: 1280px; height: 820px; max-width: none;
+  border: 0; transform-origin: center;
+}
+.r06-client-ready > .r06-client-stage { opacity: 1; pointer-events: auto; }
+.r06-client-ready > .app-window { visibility: hidden; }
+@media (max-width: 640px) {
+  .rounded-visual-card > .r06-client-stage { inset: 12px; }
+}
