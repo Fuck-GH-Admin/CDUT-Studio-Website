@@ -67,4 +67,6 @@ python3 tools/build-standalone.py --check  # 校验两者一致
 
 ## 许可
 
-主项目 CDUT Studio 采用 [AGPL-3.0](https://github.com/Nya-Angle/CDUT-Studio/blob/main/LICENSE)。本仓库的站点源码未单独声明开源许可，默认保留全部权利；如需复用或分发，请先联系团队。
+本仓库的站点源码采用 **[WTFPL](LICENSE)**（Do What The Fuck You Want To Public License）：想怎么用就怎么用。
+
+主项目 [CDUT Studio](https://github.com/Nya-Angle/CDUT-Studio) 本身采用 [AGPL-3.0](https://github.com/Nya-Angle/CDUT-Studio/blob/main/LICENSE)，与本站点源码相互独立。
